@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="tv_login_head">Log in to your\naccount</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btn_login">login</string>
+    <string name="assignment_2">Assignment 2</string>
+    <string name="welcome">Welcome ,</string>
+    <string name="info">Please provide your basic information</string>
+    <string name="fullname">Enter Full Name</string>
+    <string name="enter_date_of_birth">Enter Date Of Birth</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="enter_your_email_address">Enter Your Email Address</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="diff_account">Sign In With Different Account?</string>
+    <string name="cont">Continue</string>
+    <string name="otp_verification">OTP verification</string>
+    <string name="enter_otp">Enter the verification code\nsent to your number via sms.</string>
+    <string name="resend">Resend</string>
+    <string name="submit">Submit</string>
+    <string name="error">Error Message</string>
+    <string name="error_fullname">Please Enter A Valid Name</string>
+    <string name="error_email">Enter A Valid Email e.g. joe@aol.com</string>
+    <string name="error_empty">This Field can not be empty.</string>
+    <string name="error_pass">Enter a valid password. e.g. Abcd@1234</string>
+    <string name="gender">Please select gender</string>
+    <string name="span">"Don't have an Account? REGISTER"</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding"
+    tools:context=".Welcome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <ImageButton
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/back_btn"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_back"/>
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back_btn"
+        android:layout_marginTop="10dp"
+        android:text="@string/welcome"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+
+    <ImageButton
+        android:id="@+id/avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_welcome"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_user"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/tv_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar"
+        android:layout_marginTop="@dimen/btn_mt"
+        />
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_full_name"
+        android:layout_marginTop="@dimen/btn_mt"
+        />
+    <TextView
+        android:id="@+id/tv_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_email"
+        android:layout_marginTop="@dimen/btn_mt"
+        /></RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
